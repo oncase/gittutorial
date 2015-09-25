@@ -260,7 +260,7 @@
     <connection>datawarehouse</connection>
     <schema>dw</schema>
     <table>dim_equip</table>
-    <commit>1000</commit>
+    <commit>5000</commit>
     <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
