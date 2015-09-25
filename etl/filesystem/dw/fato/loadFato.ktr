@@ -431,7 +431,7 @@
            <schema_name/>
            </partitioning>
     <connection>staging</connection>
-    <sql>SELECT&#xd;&#xa;  &#x2a;&#xd;&#xa;FROM infracoes_stg&#xd;&#xa;</sql>
+    <sql>SELECT&#xd;&#xa;  DataInfracao as dat_infr&#xd;&#xa;, HoraInfracao as hr_infr&#xd;&#xa;, DataImplantacao as dat_imp&#xd;&#xa;, AgenteEquipamento as ag_equip&#xd;&#xa;, Infracao as infr&#xd;&#xa;, DescricaoInfracao as desc_infr&#xd;&#xa;, LocalCometimento as loc_com&#xd;&#xa;, AmparoLegal as amp_leg&#xd;&#xa;FROM infracoes_stg&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
